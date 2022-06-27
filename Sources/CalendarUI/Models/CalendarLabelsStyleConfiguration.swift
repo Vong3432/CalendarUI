@@ -11,6 +11,8 @@ import SwiftUI
 /// Style configuration labels  in CalendarUI
 public struct CalendarLabelsStyleConfiguration {
     
+    public init() {}
+    
     /// The color for weekday labels.
     /// Default is .secondary
     public var dayOfWeekColor: Color = .secondary

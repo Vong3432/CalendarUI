@@ -11,6 +11,8 @@ import SwiftUI
 /// Style configuration day cells in CalendarUI
 public struct CalendarCellsStyleConfiguration {
     
+    public init() {} 
+    
     /// The color for today's cell circle.
     /// Default is .blue
     public var colorForTodayCell: Color = .blue
