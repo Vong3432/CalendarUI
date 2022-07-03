@@ -26,7 +26,7 @@ public struct CalendarDayCell: View {
             Circle()
                 .fill(calendarDay.isToday ? config.colorForTodayCell : config.colorForTodayCell.opacity(0))
                 .frame(width: 5, height: 5)
-        }
+        }.frame(maxWidth: .infinity)
     }
 }
 
