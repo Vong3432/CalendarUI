@@ -16,8 +16,11 @@ public struct CalendarLabelsStyleConfiguration {
     /// The color for weekday labels.
     /// Default is .secondary
     public var dayOfWeekColor: Color = .secondary
-    
+}
+
+public extension CalendarLabelsStyleConfiguration {
     /// The default style option
+    /// - Tag: CalendarLabelsStyleConfigurationOriginal
     static var original: Self {
         var config = CalendarLabelsStyleConfiguration()
         config.dayOfWeekColor = .secondary

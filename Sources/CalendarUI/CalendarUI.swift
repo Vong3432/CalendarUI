@@ -82,6 +82,14 @@ struct CalendarUI_Previews: PreviewProvider {
 
 @available(iOS 14, *)
 extension CalendarUI {
+    
+    /// Create an instance of CalendarUI view
+    ///
+    /// - Parameters:
+    ///   - initialDate: The initial Date to show at the first load. Default value is Date.now()
+    ///   - isExpandable: Whether the calendar can be fold/unfolded. Default value is false.
+    ///   - calendarLabelsStyle: Configure calendar labels styling options. Default value is ``CalendarLabelsStyleConfiguration/original``
+    ///   - calendarCellsStyle: Configure calendar cells styling options. Default value is ``CalendarCellsStyleConfiguration/original``
     public init(
         initialDate: Binding<Date>? = nil,
         isExpandable: Bool? = false,

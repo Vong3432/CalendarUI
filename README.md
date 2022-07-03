@@ -15,6 +15,7 @@ A custom calendar UI for SwiftUI
 
 ## Features
 - Swipe to change month in calendar
+- Fold/unfold calendar rows
 - 🚧 Customize labels style
 - 🚧 Customize cells style
 

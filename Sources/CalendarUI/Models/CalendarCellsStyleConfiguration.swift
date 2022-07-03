@@ -16,11 +16,15 @@ public struct CalendarCellsStyleConfiguration {
     /// The color for today's cell circle.
     /// Default is .blue
     public var colorForTodayCell: Color = .blue
-    
-    /// The default style option 
+}
+
+public extension CalendarCellsStyleConfiguration {
+    /// The default style option
+    /// - Tag: CalendarCellsStyleConfigurationOriginal
     static var original: Self {
         var config = CalendarCellsStyleConfiguration()
         config.colorForTodayCell = .blue
         return config
     }
 }
+
